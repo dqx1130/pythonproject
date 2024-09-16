@@ -1,0 +1,1 @@
+file = open(r'C:\Users\Administrator\Desktop\new.txt','r')
