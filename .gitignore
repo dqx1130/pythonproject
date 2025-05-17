@@ -1,0 +1,33 @@
+# PyCharm 项目配置
+.idea/
+*.iml
+
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境（推荐放在项目内的）
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# pip 缓存或构建产物
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# VSCode（如果有切换）
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
