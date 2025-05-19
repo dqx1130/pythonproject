@@ -1,7 +1,7 @@
 class Btree:
     def __init__(self):
         pass
-def create(strings):
+def create(s):
     pass
 def preOrder(T):
     pass
