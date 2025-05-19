@@ -16,6 +16,7 @@ def create(s):
     T.lchild = create(s)     #递归创建左子
     T.rchild = create(s)     #递归创建右子
     return T
+
 #先序遍历
 def preOrder(T):
     if T is None:
