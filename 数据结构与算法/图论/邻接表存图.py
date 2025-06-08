@@ -9,8 +9,7 @@ class Vertex: #vertex：顶点
         # 功能: 向该顶点添加一个邻接点及对应的权重
         self.connectedTo[nbr] = weight
 
-
-class Graph: #graph：图
+class Graph: #graph：图 --
     # 功能: 初始化一个空图
     def __init__(self):
         self.vertices = {}  # 存储图中的所有顶点
