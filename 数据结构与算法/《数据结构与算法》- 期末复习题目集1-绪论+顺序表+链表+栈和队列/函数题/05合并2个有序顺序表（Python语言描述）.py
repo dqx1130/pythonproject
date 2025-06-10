@@ -55,8 +55,23 @@ class SqList:
 
 #你的代码将被嵌在这里
 #合并2个有序表A和B，返回合并后的有序表C
-def merge(A,B):
-    pass
+def merge(A, B):
+    C = SqList()
+    a, b = 0, 0
+    while a < A.n and b < B.n:
+        if A[a] < B[b]:
+            C.add(A[a])
+            a += 1
+        else:
+            C.add(B[b])
+            b += 1
+    while a < A.n:
+        C.add(A[a])
+        a += 1
+    while b < B.n:
+        C.add(B[b])
+        b += 1
+    return C
 
 """
 输入样例：
