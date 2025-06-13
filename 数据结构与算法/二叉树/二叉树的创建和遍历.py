@@ -36,8 +36,8 @@ def postOrder(T):
     if T is None:
         return
     postOrder(T.lchild)
-    print(T.data,end="")
     postOrder(T.rchild)
+    print(T.data,end="")
 #层次遍历
 def layerOrder(T):
     q = deque()
