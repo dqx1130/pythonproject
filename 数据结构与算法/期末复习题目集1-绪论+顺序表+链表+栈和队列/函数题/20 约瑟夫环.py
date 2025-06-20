@@ -31,7 +31,16 @@ class CLinkList:
     #你的代码将被嵌在这里，注意整个方法的代码都要缩进4个空格（类里面的方法）
     #输出约瑟夫序列，数到m的出圈
     def Joseph(self,m):
-        pass
+        res = []
+        while self.n > 0:
+            p = self.head.next
+            for _ in range(m):
+                p = p.next
+            res.append(p.next.data)
+            p.next = p.next.next
+            self.n -= 1
+        print(*res)
+
 
 h = CLinkList()   #创建循环单链表
 n,m = map(int,input().split())    #n个小孩，数到m出圈
