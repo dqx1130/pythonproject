@@ -1,3 +1,7 @@
+#二叉树的存储-二叉链表
+from yaml import NodeEvent
+
+
 class BinaryTree:
     #1.构造方法
     def __init__(self,newValue):
@@ -16,20 +20,9 @@ class BinaryTree:
     #5.访问树根的值
     def getRoot(self):
         return self.key
-
-def createBT(T):
-    pass
 #统计二叉树结点个数
 def  nodeCount(T):
     if T is None:
         return 0
     else:
         return 1 + nodeCount(T.getLeft()) + nodeCount(T.getRight())
-
-
-
-# ABDFECGHI
-# DBEFAGHCI
-
-T = createBT()   #创建二叉树，实现细节不表
-print(nodeCount(T)) #输出二叉树的结点数
