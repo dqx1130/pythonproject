@@ -1,6 +1,4 @@
 from numpy.ma.core import empty
-
-
 class SqStack:
     def __init__(self):
         self.data = []
