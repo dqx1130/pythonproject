@@ -5,13 +5,7 @@ class Btree:
         self.rchild = None
 
 def create(onOrder,postOrder):
-    if len(postOrder) == 0:
-        return None
-    T = Btree(postOrder[-1])
-    m = onOrder.index(postOrder[-1])
-    T.lchild = create(onOrder[0:m],postOrder[0:m])
-    T.rchild = create(onOrder[m+1:],postOrder[m:len(postOrder) - 1])
-    return T
+    pass
 
 def preOrder(T):
     if T is  None:

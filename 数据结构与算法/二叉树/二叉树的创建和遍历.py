@@ -6,6 +6,7 @@ class Btree:
         self.rchild = None  #右子
 
 #补空法创建树，根据给定的字符串s
+#       ABD###CG##F##
 def create(s):
     if s[0] == "#":
         s.pop(0)

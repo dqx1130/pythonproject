@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "暑期计划/0630～0706.md",
+                "file": "暑期计划/0722～0804.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0630～0706"
+              "title": "0722～0804"
             }
           }
         ]
@@ -168,8 +168,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "22d162a09eb8cf38",
+  "active": "2120dc813f99cdb1",
   "lastOpenFiles": [
+    "暑期计划/0715～0721.md",
+    "暑期计划/0722～0804.md",
+    "暑期计划/0707～0714.md",
+    "暑期计划/0909～0915.md",
+    "暑期计划/0902～0908.md",
+    "暑期计划/0826～0901.md",
+    "暑期计划/0817～0825.md",
+    "暑期计划/0630～0706.md",
     "欢迎.md"
   ]
 }
